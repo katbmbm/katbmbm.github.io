@@ -120,6 +120,15 @@
 		
 		<!-- Translator Button -->
 		<div  class="menu-trans">
+			<div id="google_translate_element" class="trans"></div>
+			<script> 
+				function googleTranslateElementInit() {
+				  new google.translate.TranslateElement({
+					pageLanguage: 'en'
+				  }, 'google_translate_element');						
+				}
+			</script>
+			<script src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>	
 		</div>
 		
 		<!-- Java Script -->
