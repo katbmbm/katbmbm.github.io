@@ -11,7 +11,7 @@
 	.menu {
 		position: absolute;
 		top: 0px;
-		left: -7px;
+		left: -3px;
 		right: 0;
 		z-index: 1000;
 		background-color: #d0cbc1;
@@ -297,7 +297,7 @@
 	}
 	
 	.timeline-container {
-		width: 103%;
+		width: 102%;
 		height: 500px;
 		background-color: #d0c6e0;
 		position: absolute;
